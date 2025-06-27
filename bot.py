@@ -17,9 +17,9 @@ from flask import Flask
 
 # Load environment variables
 load_dotenv()
-API_ID = int(os.getenv("API_ID", "17013900"))
-API_HASH = os.getenv("API_HASH", "96089a340f2892fd06aea683cbfb70")
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8141455649:AAE9M2hbX0lsZggrr1zkmR4QaKDJLos")
+API_ID = int(os.getenv("API_ID", ""))
+API_HASH = os.getenv("API_HASH", "")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "")
 
 # Initialize Pyrogram client
 bot = Client("torrent_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
