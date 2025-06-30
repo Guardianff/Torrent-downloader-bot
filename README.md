@@ -2,7 +2,6 @@
 - Version: 1.0.1 🎉
 
 A Telegram bot to fetch and handle torrents, with support for environment configuration.
-Use This :- docker.io/woodcraftbot/torrent-downloader-bot:latest
 ---
 
 ## ⚙️ Environment Variables
